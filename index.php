@@ -78,7 +78,7 @@ $fileJs = 'leaflet-pointHomeJs';
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="admin/assets/img/avatars/avatar1.jpg">
                             <div class="card-body info">
-                                <h4 class="card-title">Dimas Triandi Putra</h4>
+                                <h4 class="card-title">Dimas Triandi<br>Putra</h4>
                                 <p class="card-text">Front - End</p>
                                 <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
                             </div>
@@ -96,7 +96,7 @@ $fileJs = 'leaflet-pointHomeJs';
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="admin/assets/img/avatars/avatar3.jpeg">
                             <div class="card-body info">
-                                <h4 class="card-title">M.Arief Graifhan Ramadhani</h4>
+                                <h4 class="card-title">M. Arief Graifhan Ramadhani</h4>
                                 <p class="card-text">Leaflet</p>
                                 <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
                             </div>
