@@ -94,7 +94,7 @@ $fileJs = 'leaflet-pointHomeJs';
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="admin/assets/img/avatars/avatar3.jpg">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="admin/assets/img/avatars/avatar3.jpeg">
                             <div class="card-body info">
                                 <h4 class="card-title">M.Arief GraifhanRamadhan</h4>
                                 <p class="card-text">Leaflet</p>
