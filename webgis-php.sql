@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 12 Jan 2021 pada 23.47
+-- Waktu pembuatan: 13 Jan 2021 pada 04.21
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.3.14
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `m_kabupaten` (
   `id_kabupaten` int(11) NOT NULL,
-  `kd_kabupaten` int(11) NOT NULL,
+  `kd_kabupaten` varchar(10) NOT NULL,
   `nm_kabupaten` varchar(100) NOT NULL,
   `geojson_kabupaten` varchar(30) NOT NULL,
   `warna_kabupaten` varchar(10) NOT NULL
@@ -41,44 +41,44 @@ CREATE TABLE `m_kabupaten` (
 --
 
 INSERT INTO `m_kabupaten` (`id_kabupaten`, `kd_kabupaten`, `nm_kabupaten`, `geojson_kabupaten`, `warna_kabupaten`) VALUES
-(1, 1, 'Bangkalan', '1060121123229.json', '#f5dbc1'),
-(2, 2, 'Banyuwangi', '78060121123259.json', '#beffe8'),
-(3, 3, 'Blitar', '85060121123311.json', '#7dd696'),
-(4, 4, 'Bojonegoro', '33060121123321.json', '#cdcd66'),
-(5, 5, 'Bondowoso', '75060121123337.json', '#d7c29e'),
-(6, 6, 'Gresik', '96060121123419.json', '#f57a7a'),
-(7, 7, 'Jember', '41070121021212.json', '#e9ffbe'),
-(8, 8, 'Jombang', '73070121021221.json', '#d7c1f7'),
-(9, 0, 'Kediri', '1070121021235.json', '#cde6fa'),
-(10, 0, 'Kota Batu', '19070121021248.json', '#9ed7c2'),
-(11, 0, 'Kota Blitar', '39070121021256.json', '#efcdfa'),
-(12, 0, 'Kota Kediri', '36070121021304.json', '#9eaad7'),
-(13, 0, 'Kota Malang', '6070121021310.json', '#d79e9e'),
-(14, 0, 'Kota Mojokerto', '56070121021319.json', '#fcf9c5'),
-(15, 0, 'Kota Pasuruan', '95070121021647.json', '#f5a27a'),
-(16, 0, 'Kota Probolinggo', '17070121021659.json', '#baf5f5'),
-(17, 0, 'Kota Jember', '26070121021709.json', '#d69dbc'),
-(18, 0, 'Lamongan', '81070121021739.json', '#cdaa66'),
-(19, 0, 'Lumajang', '32070121021826.json', '#f5ca7a'),
-(20, 0, 'Madiun', '30070121021840.json', '#d2ecf7'),
-(21, 0, 'Magetan', '79070121024117.json', '#00a19c'),
-(22, 0, 'Malang', '63070121024129.json', '#e8db70'),
-(23, 0, 'Mojokerto', '35070121024138.json', '#abcd66'),
-(24, 0, 'Nganjuk', '70070121024145.json', '#89cd66'),
-(25, 0, 'Ngawi', '41070121024152.json', '#eef2c9'),
-(26, 0, 'Pacitan', '40070121024159.json', '#edc9a3'),
-(27, 0, 'Pamekasan', '72070121024205.json', '#7ab6f5'),
-(28, 0, 'Pasuruan', '67070121024211.json', '#6677cd'),
-(29, 0, 'Ponorogo', '34070121024219.json', '#a6a686'),
-(30, 0, 'Probolinggo', '65070121024225.json', '#d4ccbd'),
-(31, 0, 'Sampang', '64070121024232.json', '#f2a882'),
-(32, 0, 'Sidoarjo', '44070121024240.json', '#9e9cc7'),
-(33, 0, 'Situbondo', '31070121024247.json', '#fce3cf'),
-(34, 0, 'Sumenep', '20070121024253.json', '#caca97'),
-(35, 0, 'Surabaya', '47070121024300.json', '#f5dbc1'),
-(36, 0, 'Trenggalek', '91070121024307.json', '#beffe8'),
-(37, 0, 'Tuban', '93070121024313.json', '#7dd696'),
-(38, 0, 'Tulunggagung', '33070121024321.json', '#cdcd66');
+(1, '35.26', 'Bangkalan', '1060121123229.json', '#f5dbc1'),
+(2, '35.10', 'Banyuwangi', '78060121123259.json', '#beffe8'),
+(3, '35.05', 'Blitar', '85060121123311.json', '#7dd696'),
+(4, '35.22', 'Bojonegoro', '33060121123321.json', '#cdcd66'),
+(5, '35.11', 'Bondowoso', '75060121123337.json', '#d7c29e'),
+(6, '35.25', 'Gresik', '96060121123419.json', '#f57a7a'),
+(7, '35.09', 'Jember', '41070121021212.json', '#e9ffbe'),
+(8, '35.17', 'Jombang', '73070121021221.json', '#d7c1f7'),
+(9, '35.06', 'Kediri', '1070121021235.json', '#cde6fa'),
+(10, '35.79', 'Kota Batu', '19070121021248.json', '#9ed7c2'),
+(11, '35.72', 'Kota Blitar', '39070121021256.json', '#efcdfa'),
+(12, '35.71', 'Kota Kediri', '36070121021304.json', '#9eaad7'),
+(13, '35.07', 'Kota Malang', '6070121021310.json', '#d79e9e'),
+(14, '35.76', 'Kota Mojokerto', '56070121021319.json', '#fcf9c5'),
+(15, '35.75', 'Kota Pasuruan', '95070121021647.json', '#f5a27a'),
+(16, '35.74', 'Kota Probolinggo', '17070121021659.json', '#baf5f5'),
+(17, '35.09', 'Jember', '26070121021709.json', '#d69dbc'),
+(18, '35.24', 'Lamongan', '81070121021739.json', '#cdaa66'),
+(19, '35.08', 'Lumajang', '32070121021826.json', '#f5ca7a'),
+(20, '35.19', 'Madiun', '30070121021840.json', '#d2ecf7'),
+(21, '35.20', 'Magetan', '79070121024117.json', '#00a19c'),
+(22, '35.07', 'Malang', '63070121024129.json', '#e8db70'),
+(23, '35.16', 'Mojokerto', '35070121024138.json', '#abcd66'),
+(24, '35.18', 'Nganjuk', '70070121024145.json', '#89cd66'),
+(25, '35.21', 'Ngawi', '41070121024152.json', '#eef2c9'),
+(26, '35.01', 'Pacitan', '40070121024159.json', '#edc9a3'),
+(27, '35.28', 'Pamekasan', '72070121024205.json', '#7ab6f5'),
+(28, '35.14', 'Pasuruan', '67070121024211.json', '#6677cd'),
+(29, '35.02', 'Ponorogo', '34070121024219.json', '#a6a686'),
+(30, '35.13', 'Probolinggo', '65070121024225.json', '#d4ccbd'),
+(31, '35.27', 'Sampang', '64070121024232.json', '#f2a882'),
+(32, '35.15', 'Sidoarjo', '44070121024240.json', '#9e9cc7'),
+(33, '35.12', 'Situbondo', '31070121024247.json', '#fce3cf'),
+(34, '35.29', 'Sumenep', '20070121024253.json', '#caca97'),
+(35, '35.78', 'Kota Surabaya', '47070121024300.json', '#f5dbc1'),
+(36, '35.03', 'Trenggalek', '91070121024307.json', '#beffe8'),
+(37, '35.23', 'Tuban', '93070121024313.json', '#7dd696'),
+(38, '35.04', 'Tulungagung', '33070121024321.json', '#cdcd66');
 
 -- --------------------------------------------------------
 
@@ -97,8 +97,12 @@ CREATE TABLE `pengguna` (
 --
 
 INSERT INTO `pengguna` (`id_pengguna`, `nm_pengguna`, `kt_sandi`) VALUES
-(1, 'admin', '123456'),
-(2, 'a', 'a');
+(1, 'admin', 'admin'),
+(2, 'a', 'a'),
+(3, 'carissa', 'carissa'),
+(4, 'nadia', 'nadia'),
+(5, 'ifhan', 'ifhan'),
+(6, 'triandi', 'triandi');
 
 -- --------------------------------------------------------
 
@@ -210,7 +214,7 @@ ALTER TABLE `m_kabupaten`
 -- AUTO_INCREMENT untuk tabel `pengguna`
 --
 ALTER TABLE `pengguna`
-  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT untuk tabel `t_candi`
